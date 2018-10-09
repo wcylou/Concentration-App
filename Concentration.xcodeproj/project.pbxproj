@@ -14,6 +14,8 @@
 		6E8B8B12216D1D200055CA78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E8B8B10216D1D200055CA78 /* LaunchScreen.storyboard */; };
 		6E8B8B1D216D1D200055CA78 /* ConcentrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8B8B1C216D1D200055CA78 /* ConcentrationTests.swift */; };
 		6E8B8B28216D1D200055CA78 /* ConcentrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8B8B27216D1D200055CA78 /* ConcentrationUITests.swift */; };
+		6E8B8B37216D4C720055CA78 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8B8B36216D4C720055CA78 /* Concentration.swift */; };
+		6E8B8B39216D4DB40055CA78 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8B8B38216D4DB40055CA78 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		6E8B8B23216D1D200055CA78 /* ConcentrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConcentrationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E8B8B27216D1D200055CA78 /* ConcentrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationUITests.swift; sourceTree = "<group>"; };
 		6E8B8B29216D1D200055CA78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E8B8B36216D4C720055CA78 /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		6E8B8B38216D4DB40055CA78 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +101,11 @@
 		6E8B8B06216D1D1E0055CA78 /* Concentration */ = {
 			isa = PBXGroup;
 			children = (
-				6E8B8B07216D1D1E0055CA78 /* AppDelegate.swift */,
+				6E8B8B35216D1E0D0055CA78 /* Supporting Files */,
 				6E8B8B09216D1D1E0055CA78 /* ViewController.swift */,
 				6E8B8B0B216D1D1E0055CA78 /* Main.storyboard */,
-				6E8B8B0E216D1D200055CA78 /* Assets.xcassets */,
-				6E8B8B10216D1D200055CA78 /* LaunchScreen.storyboard */,
+				6E8B8B36216D4C720055CA78 /* Concentration.swift */,
+				6E8B8B38216D4DB40055CA78 /* Card.swift */,
 				6E8B8B13216D1D200055CA78 /* Info.plist */,
 			);
 			path = Concentration;
@@ -123,6 +127,16 @@
 				6E8B8B29216D1D200055CA78 /* Info.plist */,
 			);
 			path = ConcentrationUITests;
+			sourceTree = "<group>";
+		};
+		6E8B8B35216D1E0D0055CA78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E8B8B07216D1D1E0055CA78 /* AppDelegate.swift */,
+				6E8B8B0E216D1D200055CA78 /* Assets.xcassets */,
+				6E8B8B10216D1D200055CA78 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +272,8 @@
 			files = (
 				6E8B8B0A216D1D1E0055CA78 /* ViewController.swift in Sources */,
 				6E8B8B08216D1D1E0055CA78 /* AppDelegate.swift in Sources */,
+				6E8B8B37216D4C720055CA78 /* Concentration.swift in Sources */,
+				6E8B8B39216D4DB40055CA78 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
